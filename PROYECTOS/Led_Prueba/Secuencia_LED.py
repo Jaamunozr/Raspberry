@@ -11,6 +11,7 @@ k=0
 GPIO.setup(26, GPIO.OUT)
 GPIO.setup(19, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
+
 #Nombramos los pines y bajo que configuracion se mantendran (Salida o entrada)
 try:
 	while True:
