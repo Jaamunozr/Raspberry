@@ -1,0 +1,8 @@
+Observaciones:
+
+En esta carpeta se ecnontraran versiones de programas que 
+interactuan con el sensor de ULTRASONIDO, la terminal de 
+Raspi imprimiendo los datos del sensor y borrando sus datos 
+cada determinado tiempo, una secuancia de encendido y apagado 
+de LEDs y almacenando en un docuemnto de texto los datos 
+registrador por el sensor en la carpeta "out". 

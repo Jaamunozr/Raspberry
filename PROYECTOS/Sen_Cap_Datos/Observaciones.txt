@@ -1,0 +1,6 @@
+En el documento "modificacion" se tiene una descripcion 
+detallada de la estructura del programa que permite la 
+captura de datos, desde la entrada digital con un sensor de 
+proximidad, hasta el uso de los tiempos y como se transforma
+las señales de reloj en datos de distancia segun el sensor de 
+proximidad.

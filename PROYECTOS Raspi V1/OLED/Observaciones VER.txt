@@ -1,0 +1,13 @@
+Observaciones:
+
+Carpeta "Adafruit_Python_SSD..." Posee el archivo original para 
+para el display OLED, el cual muestra la tempeeratra de la Raspi,
+ su procesador, su IP actual, imprime imagenes previamente guardadas, 
+entre otras, adicionalmente posee las librerias que se deben instalar
+para el manejo del OLED.
+
+Carpeta "Prueba_Imagenes_Texto" Imprime en la pantalla OLED imagenes
+y tipos de texto previamente guardadas en archivos .ttf, en ésta 
+carpeta se tiene un archivo PDF que muestra el numero de la imagen 
+a trabajar.
+
