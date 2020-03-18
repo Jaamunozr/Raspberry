@@ -1,0 +1,2 @@
+Para guardar credenciales en github por 5 horas (18000 segundos):
+git config --global credential.helper 'cache --timeout=18000'
