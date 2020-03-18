@@ -1,3 +1,15 @@
 Para la temperatura cambiamos la libreria commands por subprocess
 y en la linea de comando del GPU cambiamos commands por subprocess
 Adicionalmente, quitamos desde if name, y suprimimos las sentencias citadas por float
+
+Para que el programa corra continuamente, debemos ejecutar lo siguiente:
+
+sudo crontab -e
+
+@reboot sleep 30; /usr/bin/python3 /home/pi/Documents/IPyT.py
+
+Donde sabemos que el programa arranca despues de 30seg de encender la raspberry
+Se ejecuta con python3 y se da la actual ubicacion
+
+Para mirar tareas ejecutadas 
+ crontab -l
