@@ -1,0 +1,3 @@
+Para la temperatura cambiamos la libreria commands por subprocess
+y en la linea de comando del GPU cambiamos commands por subprocess
+Adicionalmente, quitamos desde if name, y suprimimos las sentencias citadas por float
