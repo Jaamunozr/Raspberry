@@ -1,3 +1,4 @@
 JAVIER MUÑOZ
 
 Se debe configurar la comunicacion I2C en inicio,prefencias,configuracionraspberry, donde habilitamos I2c y otros comandos adicionales
+En la carpeta IP se guarda el codigo ejecutado en python3 para ver estado de la tarjeta
