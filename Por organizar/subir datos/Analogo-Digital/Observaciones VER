@@ -1,0 +1,30 @@
+Observaciones:
+
+---"PruebaV1": Es una modificación del archivo "simpletest", nos
+permite obtener los dalores de los diferentes canales gracias a 
+un bucle, podriamos obtener el que se desee de los 4 canales.
+
+---"ComparacionCH0": Imprime los datos en terminal obtenidos en 
+canal 0 en un determinado tiempo, ademas maneja un rango máximo 
+para sus lecturas si éstas se encuentran por debajo del 
+rango se emite una señal de alerta en pin ALRT del convertidor 
+(Uno Lógico).
+
+---"continuous.py" Imprime los valores en terminal de uno 
+de los canales seleccionados únicamente, por un determinado 
+tiempo.
+
+---"differential.py" Imprime en terminal la diferencia entre 
+dos de sus cuatro canales, la diferencia se imprime con signo.
+
+Video Guia de la instalacion del convertidos A/D ADS1115:
+https://www.youtube.com/watch?v=oda_jsSYqR4
+
+Comando actualizacion de Raspi:
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo rpi-update
+
+Se instala con los comandos de esta página:
+https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115
+
+Se ejecuta el programa "simpletest.py" para comprobar las 
+entradas analogas del convertidor. No presenta ningún problema.

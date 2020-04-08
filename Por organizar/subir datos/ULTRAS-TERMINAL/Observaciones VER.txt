@@ -1,0 +1,16 @@
+Observaciones:
+
+En el documento "modificacion" se tiene una descripción 
+detallada de la estructura del programa que permite la 
+captura de datos, desde la entrada digital con un sensor de 
+proximidad, hasta el uso de los tiempos y como se transforma
+las señales de reloj en datos de distancia segun el sensor de 
+proximidad. Los datos se imprimen en la terminal de Raspi donde
+se actualiza borrando siempre el dato anterior y lo que está en 
+pantalla.
+El archivo "Cap_Datos.py" realiza la misma actividad descrita, 
+a diferencia que éste no borra los datos.
+Los dos archivos guardan los datos capturados en un documento 
+de texto en la carpeta "out". Cabe resaltar que se puede configurar
+el archivo para que éste se guarde en un docuento .doc o de otra
+extensión. 

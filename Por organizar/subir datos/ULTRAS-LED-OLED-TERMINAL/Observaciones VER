@@ -1,0 +1,9 @@
+Observaciones:
+
+Los archivos de "ConjuntoVx.py" permiten imprimir en la 
+pantalla OLED los datos capturados por el sensor de 
+ULTRASONIDO, actualizandolos en un tiempo determinado, 
+mostrando la hora y fecha actual, adicionalmente, imprime 
+los datos del sensor en la termina de Raspi y los guarda en 
+un documento de texto .txt en la carpeta "out" de acuerdo a 
+el tiempo programado para su captura.
