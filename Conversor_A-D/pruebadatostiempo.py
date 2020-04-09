@@ -21,7 +21,7 @@ while p==1:
     else:
         tension=str(tension)
         tiempo=str(tiempo)
-        texto=open("texto.xlsx","w")
+        texto=open("hola_GRAFICA.xlsx","w")
         texto.write(tension + '\n')
         #texto.write("
         texto.write(tiempo)
