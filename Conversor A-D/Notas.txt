@@ -1,0 +1,30 @@
+El ADS1115 es un excelente conversor de analógico a digital que es fácil de 
+usar con la Raspberry Pi utilizando su bus de comunicación I2C. El ADS1115 
+es un ADC de 16 bits de mayor precisión con 4 canales. Tiene una ganancia 
+programable de 2 / 3x a 16x para que pueda amplificar pequeñas señales y 
+leerlas con mayor precisión. Un ADC proporciona una medición aislada que 
+convierte un voltaje analógico de entrada en un número digital proporcional 
+a la magnitud del voltaje. I²C (Inter-Integrated Circuit) es un bus de
+computadora en serie de un solo extremo, conmutado por paquetes, multimaestro, 
+multiesclavo, inventado por Philips 
+
+Connection con Raspberry Pi:
+3.3V a Vcc 
+Tierra a Gnd 
+GPIO 3 (SDA1) a SDA
+GPIO 5 (SCL1) a SCL
+A0 a A3 a entradas analógicas 
+
+***Pasos para instalar la biblioteca Adafruit ADS1x15: 
+sudo apt-get install build-essential python-dev python-smbus git
+cd ~
+git clonehttps: https://github.com/adafruit/Adafruit_Python_ADS1x15
+cd Adafruit_Python_ADS1x15 
+sudo python setup.py install
+
+
+***Carpeta de ejemplos en:
+cd ~ / Adafruit_Python_ADS1x15 / examples
+
+***Sitios web para consultar:
+https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115 
