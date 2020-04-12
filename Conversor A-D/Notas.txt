@@ -26,5 +26,7 @@ sudo python setup.py install
 ***Carpeta de ejemplos en:
 cd ~ / Adafruit_Python_ADS1x15 / examples
 
+
 ***Sitios web para consultar:
 https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115 
+https://learn.adafruit.com/adafruit-4-channel-adc-breakouts/python-circuitpython
